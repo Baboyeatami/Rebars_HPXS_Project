@@ -1,0 +1,8 @@
+path: /home/cpelabpc2/Documents/BonbonCustodiotagaodacajapan/SAMCRebars/SAMCRebars.v3i.yolov11
+train: train/images
+val: valid/images
+test: test/images
+
+# Classes
+names:
+  0: Rebars
