@@ -30,8 +30,15 @@ conda activate rebar_env
 Step 3: Install YOLO Ultralytics
 
 Once inside the virtual environment, install YOLO Ultralytics:
+in the terminal type:
+conda install conda-forge::ultralytics
+and PyTorch 
+conda install pytorch::pytorch
+and OpenCV
+conda install conda-forge::opencv
+and also Torch Vision 
+conda install -c pytorch torchvision
 
-pip install ultralytics
 
 Step 4: Clone the Repository
 
