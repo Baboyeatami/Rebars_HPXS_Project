@@ -10,7 +10,7 @@ Before setting up the project, ensure that you have the following installed:
 
 Anaconda (For managing Python environments)
 
-Python 3.8+
+Python 3.8+ Prefer, Python 3.10.9
 
 YOLO Ultralytics
 
@@ -24,7 +24,7 @@ Step 2: Create a Virtual Environment
 
 Open Anaconda Prompt and create a virtual environment named rebar_env:
 
-conda create --name rebar_env python=3.8
+conda create --name rebar_env python=3.10.9
 conda activate rebar_env
 
 Step 3: Install YOLO Ultralytics
